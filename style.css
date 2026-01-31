@@ -1,0 +1,24 @@
+.screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notes{
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+}
+.noteMarker{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+.noteText{
+    display: none;
+}
+.noteMarker:hover .noteText{
+    display: block;
+}
